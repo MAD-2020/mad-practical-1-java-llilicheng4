@@ -19,7 +19,7 @@ public class Question2
     System.out.print("Enter Weight(KG): ");
     double weight =  scan.nextDouble();
     //close scanner
-    
+    scan.close();
     //calculate bmi
     double bmi = weight/(height*height);
     // print bmi to 2 decimal places
