@@ -17,7 +17,19 @@ public class Question4
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
      
-    Scanner in = new Scanner(System.in);
-    
+     //create scanner object first
+    Scanner scan = new Scanner
+    //get integer
+    System.out.print("Enter integer: ");
+    int i = scan.nextInt();
+    for(int k = i; k>0 ;k--)
+    {
+      for(int j = k; j>0; j--)
+      {
+        System.out.print("*");
+      }
+      System.out.print("\n");
+    }
+    scan.close();
   }
 }
