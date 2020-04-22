@@ -10,7 +10,17 @@ public class Question3
      * Hint: in.nextInt() to read integer
      */
      
-    Scanner in = new Scanner(System.in);
+   //create scanner object first
+    Scanner scan = new Scanner
+    //gets integer 
+    System.out.print("Enter integer: ");
+    int N = scan.nextInt();
+    //close scanner
+    scan.close();
+    //multiply
+    int X = N*N;
+    //print
+    System.out.println(X);
     
   }
 }
